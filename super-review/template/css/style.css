@@ -29,12 +29,19 @@ body {
 /******************************************
 /* LAYOUT
 /*******************************************/
-header {
+header , footer{ 
+     height: 100px;
+     border:1px solid black;
 
 }
 
-footer {
-
+main, .bottom{
+     display: flex;
+}
+section{
+     height: 200px;
+     flex: 1;
+     border: 1px solid black;
 }
 
 /******************************************
